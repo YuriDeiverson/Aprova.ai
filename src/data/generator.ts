@@ -325,13 +325,13 @@ export const COURSES_CONFIG: {
     name: "Jornalismo",
     description: "Concurso público para provimento de vagas de Jornalista / Analista de Comunicação. Foco em Teorias da Comunicação, Técnicas de Redação, Assessoria de Imprensa, Webjornalismo, Mídias Sociais e Ética Jornalística.",
     topics: [
-      { id: 'teorias_com', title: 'Teorias da Comunicação', category: 'Teoria da Comunicação', subtopics: ['Agenda-Setting e Enquadramento', 'Gatekeeping e Newsmaking', 'Escola de Frankfurt e Indústria Cultural'] },
-      { id: 'redacao_jornalistica', title: 'Técnicas de Redação', category: 'Técnicas de Redação', subtopics: ['Lead, Sub-lead e Estrutura', 'Pirâmide Invertida e Objetividade', 'Gêneros Jornalísticos: Opinião e Notícia'] },
-      { id: 'assessoria_imprensa', title: 'Assessoria de Imprensa', category: 'Assessoria de Imprensa', subtopics: ['Press Release e Coletivas', 'Gerenciamento de Crises de Imagem', 'Media Training para Porta-vozes'] },
-      { id: 'jornalismo_digital', title: 'Jornalismo Digital e Web', category: 'Jornalismo Digital', subtopics: ['SEO para Redação Jornalística', 'Redes Sociais e Monitoramento', 'Fake News e Verificação de Fatos'] },
-      { id: 'basicas_marco_legal', title: 'Marco Legal de CT&I e FAPEAL', category: 'Marco Legal de CT&I', subtopics: ['Lei Federal nº 13.243/2016', 'Lei Estadual nº 8.956/2023', 'Inovação e Subvenções'] },
-      { id: 'divulgacao_cientifica', title: 'Divulgação Científica e Sistemas de Inovação', category: 'Divulgação Científica', subtopics: ['Curadoria de Conteúdo de CT&I', 'Manual de Oslo', 'Análise Bibliométrica'] },
-      { id: 'etica_imprensa', title: 'Ética e Legislação dos Meios', category: 'Ética e Compliance', subtopics: ['Código de Ética dos Jornalistas Brasileiros', 'Segredo de Fonte e Direito à Informação', 'Direito de Resposta e Ofensa'] }
+      { id: 'teorias_com', title: 'Teorias da Comunicação', category: 'Jornalismo', subtopics: ['Agenda-Setting e Enquadramento', 'Gatekeeping e Newsmaking', 'Escola de Frankfurt e Indústria Cultural'] },
+      { id: 'redacao_jornalistica', title: 'Técnicas de Redação', category: 'Jornalismo',  subtopics: ['Lead, Sub-lead e Estrutura', 'Pirâmide Invertida e Objetividade', 'Gêneros Jornalísticos: Opinião e Notícia'] },
+      { id: 'assessoria_imprensa', title: 'Assessoria de Imprensa', category: 'Jornalismo', subtopics: ['Press Release e Coletivas', 'Gerenciamento de Crises de Imagem', 'Media Training para Porta-vozes'] },
+      { id: 'jornalismo_digital', title: 'Jornalismo Digital e Web', category: 'Jornalismo', subtopics: ['SEO para Redação Jornalística', 'Redes Sociais e Monitoramento', 'Fake News e Verificação de Fatos'] },
+      { id: 'basicas_marco_legal', title: 'Marco Legal de CT&I e FAPEAL', category: 'Jornalismo', subtopics: ['Lei Federal nº 13.243/2016', 'Lei Estadual nº 8.956/2023', 'Inovação e Subvenções'] },
+      { id: 'divulgacao_cientifica', title: 'Divulgação Científica e Sistemas de Inovação', category: 'Jornalismo', subtopics: ['Curadoria de Conteúdo de CT&I', 'Manual de Oslo', 'Análise Bibliométrica'] },
+      { id: 'etica_imprensa', title: 'Ética e Legislação dos Meios', category: 'Jornalismo', subtopics: ['Código de Ética dos Jornalistas Brasileiros', 'Segredo de Fonte e Direito à Informação', 'Direito de Resposta e Ofensa'] }
     ],
     studySections: [
       {

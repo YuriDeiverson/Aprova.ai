@@ -21,12 +21,27 @@ export interface StudySection {
 }
 
 export type QuestionCategory = 
+  // SEPLAG Informática
   | 'Português'
   | 'TI Básica'
   | 'Ética e Compliance'
   | 'Conhecimentos de Alagoas'
-    | 'Jornalismo'
-  | 'Conhecimentos Específicos';
+  | 'Conhecimentos Específicos'
+  
+  // Técnico em Enfermagem
+  | 'Fundamentos de Enfermagem'
+  | 'Saúde Pública e SUS'
+  | 'Urgência e Emergência'
+  | 'Farmacologia e Administração'
+  
+  // Jornalismo
+  | 'Teorias da Comunicação'
+  | 'Técnicas de Redação'
+  | 'Assessoria de Imprensa'
+  | 'Jornalismo Digital e Web'
+  | 'Marco Legal de CT&I e FAPEAL'
+  | 'Divulgação Científica e Sistemas de Inovação'
+  | 'Ética e Legislação dos Meios';
 
 export interface Question {
   id: number;
